@@ -1,7 +1,14 @@
 burpSaveUrlList
 ===============
 
-A Burp Extension written in jython that saves a URL List from the Burp Proxy History or Burp Target Site Map as a text file.  This is helpful for starting "List-Driven" scans in other automated web vulnerabilities scanners such as HP WebInspect.  Most automated web vulnerability scanner will accept a txt file list of URLs for seeding a scan.
+A Burp extension written in jython that saves a url list from the Burp proxy history or Burp target site map as a text file.  This is helpful for starting "list-driven" scans in other automated web vulnerabilities scanners such as HP WebInspect.  Most automated web vulnerability scanners will accept a text file list of URLs for seeding a scan.
+
+Four Ways to Save
+==================
+1.) Save a url list from the entire Proxy History <br />
+2.) Save a url list from in-scope items in the Proxy History <br />
+3.) Save a url list from the entire Target Site Tree <br />
+4.) Save a url list from in-scope items in the Target Site Tree <br />
 
 Requirements
 ==================
